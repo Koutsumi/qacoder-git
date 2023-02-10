@@ -1,5 +1,6 @@
 ### Alterando o arquivo
     - quarta alteração
 
-## Alterando o arquivo novamente
-<h1>o MD aceita as tags html</h1>
+## Comandos no GIT
+    - Envia o commit para a branch main
+<code>git push origin main</code>
