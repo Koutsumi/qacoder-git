@@ -37,3 +37,19 @@ Move toda uma branch para outro ponto da árvore
 
 ### GITIGNORE
 Ignora arquivos que não devem ser versionados 
+
+### STASH
+    git stash
+salva as alterações realizadas separadamente antes do add/commit
+
+    git stash apply
+Pega o ultimo statsh salvo e aplica na branch e mantem o stash na branch
+
+    git stash save nomeDoStash
+Da um nome ao stash
+
+    git stash pop
+Pega o ultimo stash e remove ele da lista
+
+    git stash apply stash@{INDICE}
+Pega um stash especifico
