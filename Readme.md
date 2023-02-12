@@ -26,3 +26,11 @@ Esse último cria e acessa a branch
 #### Deletar branch
     git branch -D nomeDaBranch
 OBS.: Não é possível deletar a branch que está acessada no momento
+
+### MERGE
+    git merge nomeDaGranch
+Adiciona uma branch em outra branch
+
+### REBASE
+    git rebase master/main
+Move toda uma branch para outro ponto da árvore
