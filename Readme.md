@@ -34,3 +34,6 @@ Adiciona uma branch em outra branch
 ### REBASE
     git rebase master/main
 Move toda uma branch para outro ponto da árvore
+
+### GITIGNORE
+Ignora arquivos que não devem ser versionados 
